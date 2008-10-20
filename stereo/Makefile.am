@@ -12,6 +12,7 @@ sound_DATA =                            \
 	audio-channel-side-left.ogg	\
 	audio-channel-side-right.ogg	\
 	audio-test-signal.ogg		\
+	battery-low.ogg			\
 	bell.ogg			\
 	button-pressed.ogg		\
 	button-toggle-off.ogg		\
@@ -31,8 +32,10 @@ sound_DATA =                            \
 	message-new-instant.ogg		\
 	phone-incoming-call.ogg		\
 	phone-outgoing-busy.ogg		\
+	power-unplug.ogg		\
 	service-login.ogg		\
 	service-logout.ogg		\
+	suspend-error.ogg		\
 	trash-empty.ogg			\
 	window-close.ogg		\
 	window-maximized.ogg		\
