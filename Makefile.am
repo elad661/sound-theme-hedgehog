@@ -2,6 +2,7 @@ NULL =
 
 SUBDIRS = 			\
 	stereo			\
+	po			\
 	$(NULL)
 
 themedir = $(datadir)/sounds/freedesktop
@@ -9,9 +10,8 @@ theme_DATA = index.theme
 
 THEME_IN_FILES = index.theme.in
 
-%.theme:   %.theme.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(IN
-TLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge
--cache
+%.theme: %.theme.in
+	$(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
 
 EXTRA_DIST = \
 	README			\
@@ -21,6 +21,23 @@ EXTRA_DIST = \
 DISTCLEANFILES = \
 	$(NULL)
 
+MAINTAINERCLEANFILES =		\
+	*~			\
+	intltool-*.in		\
+	compile			\
+	configure		\
+	INSTALL			\
+	install-sh		\
+	missing			\
+	mkinstalldirs		\
+	config.guess		\
+	ltmain.sh		\
+	config.sub		\
+	depcomp			\
+	Makefile.in		\
+	config.h.*		\
+	aclocal.m4		\
+	$(NULL)
 
 # Creating ChangeLog from git log (taken from cairo/Makefile.am):
 

@@ -45,5 +45,14 @@ sound_DATA =                            \
 	window-slide.ogg		\
 	$(NULL)
 
+EXTRA_DIST =            \
+	$(sound_DATA)	\
+	$(NULL)
+
 DISTCLEANFILES = \
+	$(NULL)
+
+MAINTAINERCLEANFILES =		\
+	*~			\
+	Makefile.in		\
 	$(NULL)
