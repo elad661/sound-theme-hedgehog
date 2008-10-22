@@ -1,7 +1,7 @@
 
 AC_PREREQ([2.60])
 AC_INIT([sound-theme-freedesktop],
-        [0.2],
+        [0.3],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gdm])
 
 AC_CONFIG_SRCDIR([index.theme.in])
