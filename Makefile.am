@@ -4,8 +4,18 @@ SUBDIRS = 			\
 	stereo			\
 	$(NULL)
 
+themedir = $(datadir)/sounds/freedesktop
+theme_DATA = index.theme
+
+THEME_IN_FILES = index.theme.in
+
+%.theme:   %.theme.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(IN
+TLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge
+-cache
+
 EXTRA_DIST = \
 	README			\
+	index.theme.in		\
 	$(NULL)
 
 DISTCLEANFILES = \
