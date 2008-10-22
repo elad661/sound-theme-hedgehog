@@ -18,6 +18,10 @@ EXTRA_DIST = \
 	index.theme.in		\
 	$(NULL)
 
+CLEANFILES = \
+        index.theme		\
+	$(NULL)
+
 DISTCLEANFILES = \
 	$(NULL)
 
