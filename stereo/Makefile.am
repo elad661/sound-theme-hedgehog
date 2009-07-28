@@ -17,6 +17,7 @@ sound_DATA =                            \
 	button-pressed.ogg		\
 	button-toggle-off.ogg		\
 	button-toggle-on.ogg		\
+	camera-shutter.ogg		\
 	complete-media-burn.ogg		\
 	desktop-login.ogg		\
 	desktop-logout.ogg		\
