@@ -1,3 +1,5 @@
+index.theme
+*.tar.bz2
 Makefile
 Makefile.in
 aclocal.m4
