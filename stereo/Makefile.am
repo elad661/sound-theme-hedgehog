@@ -34,6 +34,7 @@ sound_DATA =                            \
 	phone-incoming-call.ogg		\
 	phone-outgoing-busy.ogg		\
 	power-unplug.ogg		\
+	screen-capture.ogg		\
 	service-login.ogg		\
 	service-logout.ogg		\
 	suspend-error.ogg		\
