@@ -1,4 +1,12 @@
 ==============
+Version 0.5
+==============
+
+ * add window-unmaximize/window-unminimize (as per-sample reverse of window-maximize/window-minimize)
+ * add desktop-switch-left and desktop-switch-right (with a minimal spacial effect)
+ * add audio-volume-change
+
+==============
 Version 0.4
 ==============
 
