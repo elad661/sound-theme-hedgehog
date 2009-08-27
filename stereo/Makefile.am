@@ -39,6 +39,8 @@ sound_DATA =                            \
 	screen-capture.ogg		\
 	service-login.ogg		\
 	service-logout.ogg		\
+	system-ready.ogg		\
+	system-shutdown.ogg		\
 	suspend-error.ogg		\
 	trash-empty.ogg			\
 	window-close.ogg		\
