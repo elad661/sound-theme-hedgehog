@@ -16,8 +16,7 @@ sound_DATA =                            \
 	battery-low.ogg			\
 	bell.ogg			\
 	button-pressed.ogg		\
-	button-toggle-off.ogg		\
-	button-toggle-on.ogg		\
+	button-toggle.ogg		\
 	camera-shutter.ogg		\
 	complete-media-burn.ogg		\
 	desktop-login.ogg		\
