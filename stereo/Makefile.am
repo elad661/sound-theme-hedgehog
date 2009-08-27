@@ -28,15 +28,12 @@ sound_DATA =                            \
 	dialog-information.ogg		\
 	dialog-ok.ogg			\
 	dialog-question.ogg		\
-	dialog-warning.ogg		\
-	link-pressed.ogg		\
 	menu-click.ogg			\
 	message-new-email.ogg		\
 	message-new-instant.ogg		\
 	phone-incoming-call.ogg		\
 	phone-outgoing-busy.ogg		\
 	power-unplug.ogg		\
-	screen-capture.ogg		\
 	service-login.ogg		\
 	service-logout.ogg		\
 	system-ready.ogg		\
@@ -52,6 +49,14 @@ sound_DATA =                            \
 	window-unmaximized.ogg		\
 	window-unminimized.ogg		\
 	$(NULL)
+
+install-data-hook:
+	-rm -f $(DESTDIR)$(sounddir)/dialog-warning.ogg
+	$(LN_S) dialog-error.ogg $(DESTDIR)$(sounddir)/dialog-warning.ogg
+	-rm -f $(DESTDIR)$(sounddir)/link-pressed.ogg
+	$(LN_S) menu-click.ogg $(DESTDIR)$(sounddir)/link-pressed.ogg
+	-rm -f $(DESTDIR)$(sounddir)/screen-capture.ogg
+	$(LN_S) camera-shutter.ogg $(DESTDIR)$(sounddir)/screen-capture.ogg
 
 EXTRA_DIST =            \
 	$(sound_DATA)	\
