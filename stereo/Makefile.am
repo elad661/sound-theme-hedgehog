@@ -12,6 +12,7 @@ sound_DATA =                            \
 	audio-channel-side-left.ogg	\
 	audio-channel-side-right.ogg	\
 	audio-test-signal.ogg		\
+	audio-volume-change.ogg		\
 	battery-low.ogg			\
 	bell.ogg			\
 	button-pressed.ogg		\
@@ -21,6 +22,8 @@ sound_DATA =                            \
 	complete-media-burn.ogg		\
 	desktop-login.ogg		\
 	desktop-logout.ogg		\
+	desktop-switch-left.ogg		\
+	desktop-switch-right.ogg 	\
 	dialog-cancel.ogg		\
 	dialog-error.ogg		\
 	dialog-information.ogg		\
@@ -45,6 +48,8 @@ sound_DATA =                            \
 	window-move-start.ogg		\
 	window-move-stop.ogg		\
 	window-slide.ogg		\
+	window-unmaximized.ogg		\
+	window-unminimized.ogg		\
 	$(NULL)
 
 EXTRA_DIST =            \
