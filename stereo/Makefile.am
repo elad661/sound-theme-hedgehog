@@ -13,6 +13,7 @@ sound_DATA =                            \
 	audio-channel-side-right.ogg	\
 	audio-test-signal.ogg		\
 	audio-volume-change.ogg		\
+	battery-full.ogg		\
 	battery-low.ogg			\
 	bell.ogg			\
 	button-pressed.ogg		\
@@ -23,23 +24,28 @@ sound_DATA =                            \
 	desktop-logout.ogg		\
 	desktop-switch-left.ogg		\
 	desktop-switch-right.ogg 	\
+	device-added.ogg		\
+	device-removed.ogg		\
 	dialog-cancel.ogg		\
 	dialog-error.ogg		\
 	dialog-information.ogg		\
 	dialog-ok.ogg			\
 	dialog-question.ogg		\
+	dialog-warning.ogg		\
+	link-pressed.ogg		\
 	menu-click.ogg			\
+	menu-popup.ogg			\
 	message-new-email.ogg		\
 	message-new-instant.ogg		\
 	phone-incoming-call.ogg		\
 	phone-outgoing-busy.ogg		\
-	power-unplug.ogg		\
 	service-login.ogg		\
 	service-logout.ogg		\
+	suspend-error.ogg		\
 	system-ready.ogg		\
 	system-shutdown.ogg		\
-	suspend-error.ogg		\
 	trash-empty.ogg			\
+	window-attention.ogg		\
 	window-close.ogg		\
 	window-maximized.ogg		\
 	window-minimized.ogg		\
@@ -51,10 +57,16 @@ sound_DATA =                            \
 	$(NULL)
 
 install-data-hook:
-	-rm -f $(DESTDIR)$(sounddir)/dialog-warning.ogg
-	$(LN_S) dialog-error.ogg $(DESTDIR)$(sounddir)/dialog-warning.ogg
-	-rm -f $(DESTDIR)$(sounddir)/link-pressed.ogg
-	$(LN_S) menu-click.ogg $(DESTDIR)$(sounddir)/link-pressed.ogg
+	-rm -f $(DESTDIR)$(sounddir)/power-plug.ogg
+	$(LN_S) device-added.ogg $(DESTDIR)$(sounddir)/power-plug.ogg
+	-rm -f $(DESTDIR)$(sounddir)/power-unplug.ogg
+	$(LN_S) device-removed.ogg $(DESTDIR)$(sounddir)/power-unplug.ogg
+	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-established.ogg
+	$(LN_S) device-added.ogg $(DESTDIR)$(sounddir)/network-connectivity-established.ogg
+	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-lost.ogg
+	$(LN_S) device-removed.ogg $(DESTDIR)$(sounddir)/network-connectivity-lost.ogg
+	-rm -f $(DESTDIR)$(sounddir)/tooltip-popup.ogg
+	$(LN_S) menu-popup.ogg $(DESTDIR)$(sounddir)/tooltip-popup.ogg
 	-rm -f $(DESTDIR)$(sounddir)/screen-capture.ogg
 	$(LN_S) camera-shutter.ogg $(DESTDIR)$(sounddir)/screen-capture.ogg
 
