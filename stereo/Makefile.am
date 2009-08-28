@@ -68,6 +68,8 @@ install-data-hook:
 	$(LN_S) device-removed.ogg $(DESTDIR)$(sounddir)/network-connectivity-lost.ogg
 	-rm -f $(DESTDIR)$(sounddir)/tooltip-popup.ogg
 	$(LN_S) menu-popup.ogg $(DESTDIR)$(sounddir)/tooltip-popup.ogg
+	-rm -f $(DESTDIR)$(sounddir)/menu-replace.ogg
+	$(LN_S) menu-popup.ogg $(DESTDIR)$(sounddir)/menu-replace.ogg
 	-rm -f $(DESTDIR)$(sounddir)/screen-capture.ogg
 	$(LN_S) camera-shutter.ogg $(DESTDIR)$(sounddir)/screen-capture.ogg
 
