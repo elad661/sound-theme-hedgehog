@@ -3,75 +3,75 @@ NULL =
 sounddir = $(datadir)/sounds/freedesktop/stereo
 
 sound_DATA =                            \
-	audio-channel-front-center.ogg	\
-	audio-channel-front-left.ogg	\
-	audio-channel-front-right.ogg	\
-	audio-channel-rear-center.ogg	\
-	audio-channel-rear-left.ogg	\
-	audio-channel-rear-right.ogg	\
-	audio-channel-side-left.ogg	\
-	audio-channel-side-right.ogg	\
-	audio-test-signal.ogg		\
-	audio-volume-change.ogg		\
-	battery-full.ogg		\
-	battery-low.ogg			\
-	bell.ogg			\
-	button-pressed.ogg		\
-	button-toggle.ogg		\
-	camera-shutter.ogg		\
-	complete.ogg			\
-	desktop-login.ogg		\
-	desktop-logout.ogg		\
-	desktop-switch-left.ogg		\
-	desktop-switch-right.ogg 	\
-	device-added.ogg		\
-	device-removed.ogg		\
-	dialog-cancel.ogg		\
-	dialog-error.ogg		\
-	dialog-information.ogg		\
-	dialog-ok.ogg			\
-	dialog-question.ogg		\
-	dialog-warning.ogg		\
-	link-pressed.ogg		\
-	menu-click.ogg			\
-	menu-popup.ogg			\
-	message-new-email.ogg		\
-	message-new-instant.ogg		\
-	phone-incoming-call.ogg		\
-	phone-outgoing-busy.ogg		\
-	service-login.ogg		\
-	service-logout.ogg		\
-	suspend-error.ogg		\
-	system-ready.ogg		\
-	system-shutdown.ogg		\
-	trash-empty.ogg			\
-	window-attention.ogg		\
-	window-close.ogg		\
-	window-maximized.ogg		\
-	window-minimized.ogg		\
-	window-move-start.ogg		\
-	window-move-stop.ogg		\
-	window-new.ogg                  \
-	window-slide.ogg		\
-	window-unmaximized.ogg		\
-	window-unminimized.ogg		\
+	audio-channel-front-center.oga	\
+	audio-channel-front-left.oga	\
+	audio-channel-front-right.oga	\
+	audio-channel-rear-center.oga	\
+	audio-channel-rear-left.oga	\
+	audio-channel-rear-right.oga	\
+	audio-channel-side-left.oga	\
+	audio-channel-side-right.oga	\
+	audio-test-signal.oga		\
+	audio-volume-change.oga		\
+	battery-full.oga		\
+	battery-low.oga			\
+	bell.oga			\
+	button-pressed.oga		\
+	button-togale.oga		\
+	camera-shutter.oga		\
+	complete.oga			\
+	desktop-login.oga		\
+	desktop-logout.oga		\
+	desktop-switch-left.oga		\
+	desktop-switch-right.oga 	\
+	device-added.oga		\
+	device-removed.oga		\
+	dialog-cancel.oga		\
+	dialog-error.oga		\
+	dialog-information.oga		\
+	dialog-ok.oga			\
+	dialog-question.oga		\
+	dialog-warning.oga		\
+	link-pressed.oga		\
+	menu-click.oga			\
+	menu-popup.oga			\
+	message-new-email.oga		\
+	message-new-instant.oga		\
+	phone-incoming-call.oga		\
+	phone-outgoing-busy.oga		\
+	service-login.oga		\
+	service-logout.oga		\
+	suspend-error.oga		\
+	system-ready.oga		\
+	system-shutdown.oga		\
+	trash-empty.oga			\
+	window-attention.oga		\
+	window-close.oga		\
+	window-maximized.oga		\
+	window-minimized.oga		\
+	window-move-start.oga		\
+	window-move-stop.oga		\
+	window-new.oga                  \
+	window-slide.oga		\
+	window-unmaximized.oga		\
+	window-unminimized.oga		\
 	$(NULL)
 
 install-data-hook:
-	-rm -f $(DESTDIR)$(sounddir)/power-plug.ogg
-	$(LN_S) device-added.ogg $(DESTDIR)$(sounddir)/power-plug.ogg
-	-rm -f $(DESTDIR)$(sounddir)/power-unplug.ogg
-	$(LN_S) device-removed.ogg $(DESTDIR)$(sounddir)/power-unplug.ogg
-	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-established.ogg
-	$(LN_S) device-added.ogg $(DESTDIR)$(sounddir)/network-connectivity-established.ogg
-	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-lost.ogg
-	$(LN_S) device-removed.ogg $(DESTDIR)$(sounddir)/network-connectivity-lost.ogg
-	-rm -f $(DESTDIR)$(sounddir)/tooltip-popup.ogg
-	$(LN_S) menu-popup.ogg $(DESTDIR)$(sounddir)/tooltip-popup.ogg
-	-rm -f $(DESTDIR)$(sounddir)/menu-replace.ogg
-	$(LN_S) menu-popup.ogg $(DESTDIR)$(sounddir)/menu-replace.ogg
-	-rm -f $(DESTDIR)$(sounddir)/screen-capture.ogg
-	$(LN_S) camera-shutter.ogg $(DESTDIR)$(sounddir)/screen-capture.ogg
+	-rm -f $(DESTDIR)$(sounddir)/power-plug.oga
+	$(LN_S) device-added.oga $(DESTDIR)$(sounddir)/power-plug.oga
+	-rm -f $(DESTDIR)$(sounddir)/power-unplug.oga
+	$(LN_S) device-removed.oga $(DESTDIR)$(sounddir)/power-unplug.oga
+	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-established.oga
+	$(LN_S) device-added.oga $(DESTDIR)$(sounddir)/network-connectivity-established.oga
+	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-lost.oga
+	$(LN_S) device-removed.oga $(DESTDIR)$(sounddir)/network-connectivity-lost.oga
+	-rm -f $(DESTDIR)$(sounddir)/tooltip-popup.oga
+	$(LN_S) menu-popup.oga $(DESTDIR)$(sounddir)/tooltip-popup.oga
+	-rm -f $(DESTDIR)$(sounddir)/menu-replace.oga
+	$(LN_S) menu-popup.oga $(DESTDIR)$(sounddir)/menu-replace.oga
+	-rm -f $(DESTDIR)$(sounddir)/screen-capture.oga
+	$(LN_S) camera-shutter.oga $(DESTDIR)$(sounddir)/screen-capture.oga
 
 EXTRA_DIST =            \
 	$(sound_DATA)	\
