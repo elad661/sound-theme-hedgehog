@@ -51,6 +51,7 @@ sound_DATA =                            \
 	window-minimized.ogg		\
 	window-move-start.ogg		\
 	window-move-stop.ogg		\
+	window-new.ogg                  \
 	window-slide.ogg		\
 	window-unmaximized.ogg		\
 	window-unminimized.ogg		\
