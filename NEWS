@@ -1,4 +1,13 @@
 ==============
+Version 0.6
+==============
+
+ * rename complete-media-burn.ogg to complete.ogg so that we can use it for all 'complete' events
+ * add battery-full.ogg, device-added.ogg, device-removed.ogg, menu-popup.ogg, window-attention.ogg, system-shutdown.ogg, system-ready.ogg
+ * create duplicate sounds as symlinks
+ * update a couple of sounds
+
+==============
 Version 0.5
 ==============
 
