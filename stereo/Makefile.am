@@ -3,6 +3,7 @@ NULL =
 sounddir = $(datadir)/sounds/freedesktop/stereo
 
 sound_DATA =                            \
+	alarm-clock-elapsed.oga	        \
 	audio-channel-front-center.oga	\
 	audio-channel-front-left.oga	\
 	audio-channel-front-right.oga	\
@@ -17,7 +18,7 @@ sound_DATA =                            \
 	battery-low.oga			\
 	bell.oga			\
 	button-pressed.oga		\
-	button-togale.oga		\
+	button-toggle.oga		\
 	camera-shutter.oga		\
 	complete.oga			\
 	desktop-login.oga		\
@@ -39,6 +40,7 @@ sound_DATA =                            \
 	message-new-instant.oga		\
 	phone-incoming-call.oga		\
 	phone-outgoing-busy.oga		\
+	phone-outgoing-calling.oga      \
 	service-login.oga		\
 	service-logout.oga		\
 	suspend-error.oga		\
