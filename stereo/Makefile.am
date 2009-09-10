@@ -23,8 +23,6 @@ sound_DATA =                            \
 	complete.oga			\
 	desktop-login.oga		\
 	desktop-logout.oga		\
-	desktop-switch-left.oga		\
-	desktop-switch-right.oga 	\
 	device-added.oga		\
 	device-removed.oga		\
 	dialog-cancel.oga		\
