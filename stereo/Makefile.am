@@ -44,8 +44,6 @@ sound_DATA =                            \
 	service-login.oga		\
 	service-logout.oga		\
 	suspend-error.oga		\
-	system-ready.oga		\
-	system-shutdown.oga		\
 	trash-empty.oga			\
 	window-attention.oga		\
 	window-close.oga		\
