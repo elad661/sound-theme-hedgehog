@@ -22,7 +22,6 @@ sound_DATA =                            \
 	desktop-logout.oga		\
 	device-added.oga		\
 	device-removed.oga		\
-	dialog-cancel.oga		\
 	dialog-error.oga		\
 	dialog-information.oga		\
 	dialog-ok.oga			\
