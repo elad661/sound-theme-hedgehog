@@ -17,8 +17,6 @@ sound_DATA =                            \
 	battery-full.oga		\
 	battery-low.oga			\
 	bell.oga			\
-	button-pressed.oga		\
-	button-toggle.oga		\
 	camera-shutter.oga		\
 	complete.oga			\
 	desktop-login.oga		\
@@ -31,7 +29,6 @@ sound_DATA =                            \
 	dialog-ok.oga			\
 	dialog-question.oga		\
 	dialog-warning.oga		\
-	link-pressed.oga		\
 	message.oga			\
 	message-new-instant.oga		\
 	phone-incoming-call.oga		\
