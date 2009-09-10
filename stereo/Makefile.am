@@ -38,7 +38,6 @@ sound_DATA =                            \
 	suspend-error.oga		\
 	trash-empty.oga			\
 	window-attention.oga		\
-	window-new.oga                  \
 	$(NULL)
 
 install-data-hook:
