@@ -33,7 +33,7 @@ sound_DATA =                            \
 	dialog-warning.oga		\
 	link-pressed.oga		\
 	menu-click.oga			\
-	menu-popup.oga			\
+	message.oga			\
 	message-new-email.oga		\
 	message-new-instant.oga		\
 	phone-incoming-call.oga		\
@@ -64,10 +64,6 @@ install-data-hook:
 	$(LN_S) device-added.oga $(DESTDIR)$(sounddir)/network-connectivity-established.oga
 	-rm -f $(DESTDIR)$(sounddir)/network-connectivity-lost.oga
 	$(LN_S) device-removed.oga $(DESTDIR)$(sounddir)/network-connectivity-lost.oga
-	-rm -f $(DESTDIR)$(sounddir)/tooltip-popup.oga
-	$(LN_S) menu-popup.oga $(DESTDIR)$(sounddir)/tooltip-popup.oga
-	-rm -f $(DESTDIR)$(sounddir)/menu-replace.oga
-	$(LN_S) menu-popup.oga $(DESTDIR)$(sounddir)/menu-replace.oga
 	-rm -f $(DESTDIR)$(sounddir)/screen-capture.oga
 	$(LN_S) camera-shutter.oga $(DESTDIR)$(sounddir)/screen-capture.oga
 
