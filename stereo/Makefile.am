@@ -32,7 +32,6 @@ sound_DATA =                            \
 	dialog-question.oga		\
 	dialog-warning.oga		\
 	link-pressed.oga		\
-	menu-click.oga			\
 	message.oga			\
 	message-new-instant.oga		\
 	phone-incoming-call.oga		\
