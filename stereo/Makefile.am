@@ -42,15 +42,7 @@ sound_DATA =                            \
 	suspend-error.oga		\
 	trash-empty.oga			\
 	window-attention.oga		\
-	window-close.oga		\
-	window-maximized.oga		\
-	window-minimized.oga		\
-	window-move-start.oga		\
-	window-move-stop.oga		\
 	window-new.oga                  \
-	window-slide.oga		\
-	window-unmaximized.oga		\
-	window-unminimized.oga		\
 	$(NULL)
 
 install-data-hook:
