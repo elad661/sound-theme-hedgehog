@@ -34,7 +34,6 @@ sound_DATA =                            \
 	link-pressed.oga		\
 	menu-click.oga			\
 	message.oga			\
-	message-new-email.oga		\
 	message-new-instant.oga		\
 	phone-incoming-call.oga		\
 	phone-outgoing-busy.oga		\
