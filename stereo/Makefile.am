@@ -15,7 +15,6 @@ sound_DATA =                            \
 	audio-test-signal.oga		\
 	audio-volume-change.oga		\
 	battery-full.oga		\
-	battery-low.oga			\
 	bell.oga			\
 	camera-shutter.oga		\
 	complete.oga			\
