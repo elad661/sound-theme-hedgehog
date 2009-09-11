@@ -37,6 +37,7 @@ RULES:
         <snip>
                 The criteria for sound inclusion:
                 . No licensing issues
+                  (https://fedoraproject.org/wiki/Licensing#Good_Licenses)
                 . Appropriate length
                         . Shorter than 1 second for any sound that denotes a specific event
                         . Shorter than 5 seconds for a background sound (basically, startup/shutdown)
