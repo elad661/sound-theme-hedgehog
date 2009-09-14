@@ -12,6 +12,9 @@ audio-channel-rear-right
 audio-channel-side-left
 audio-channel-side-right
 audio-test-signal
+        Copyright: The ALSA developers
+        URL: http://git.alsa-project.org/?p=alsa-utils.git;a=tree;f=speaker-test/samples;hb=HEAD
+        License: GPLv2+
 
 audio-volume-change
         Copyright: Lucas McCallister
@@ -19,13 +22,19 @@ audio-volume-change
         License: CC-BY-SA (relicensed with permission from author)
 
 battery-full
+        Copyright: 'glh Pimenta'
+        URL: http://gnome-look.org/content/show.php/Feather+Sound+Set?content=90916
+	License: Artistic 2.0
 
 bell
+complete
+dialog-ok
+trash-empty
+        http://wiki.laptop.org/go/Sound_samples#OLPC_Samples_from_31_Music_Synthesis_Alumni_from_Berklee
 
 camera-shutter
 screen-capture
 
-complete
 
 desktop-login
 desktop-logout
@@ -40,18 +49,27 @@ power-unplug
 network-connectivity-established
 network-connectivity-lost
 
+
 dialog-error
 dialog-information
-dialog-ok
 dialog-question
 dialog-warning
+window-attention
+        Copyright: Ivica Bukvic
+        URL: http://gnome-look.org/content/show.php/%22Borealis%22+sound+theme?content=12584
+        License: CC-BY-SA
+
+
 message-new-instant
+
 message
 
 phone-incoming-call
-
 phone-outgoing-busy
 phone-outgoing-calling
+        Copyright: Damien Sandras
+        URL: http://git.gnome.org/cgit/ekiga/tree/sounds
+        License: GPLv2+
 
 service-login
 service-logout
@@ -60,6 +78,3 @@ service-logout
 
 suspend-error
 
-trash-empty
-
-window-attention
