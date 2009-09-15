@@ -24,7 +24,6 @@ sound_DATA =                            \
 	device-removed.oga		\
 	dialog-error.oga		\
 	dialog-information.oga		\
-	dialog-ok.oga			\
 	dialog-question.oga		\
 	dialog-warning.oga		\
 	message.oga			\
