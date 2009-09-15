@@ -26,11 +26,22 @@ battery-full
         URL: http://gnome-look.org/content/show.php/Feather+Sound+Set?content=90916
 	License: Artistic 2.0
 
-bell
+trash-empty
+        Copyright: Dr. Richard Boulanger et al
+        URL: http://www.archive.org/details/Berklee44v10
+        License: CC-BY Attribution 3.0 Unported
+
 complete
 dialog-ok
-trash-empty
-        http://wiki.laptop.org/go/Sound_samples#OLPC_Samples_from_31_Music_Synthesis_Alumni_from_Berklee
+        Copyright: Dr. Richard Boulanger et al
+        URL: http://www.archive.org/details/Berklee44v11
+        License: CC-BY Attribution 3.0 Unported
+
+bell
+        Copyright: Dr. Richard Boulanger et al
+        URL: http://www.archive.org/details/Berklee44v12
+        License: CC-BY Attribution 3.0 Unported
+
 
 camera-shutter
 screen-capture
@@ -50,8 +61,7 @@ power-plug
 power-unplug
 network-connectivity-established
 network-connectivity-lost
-
-
+message
 dialog-error
 dialog-information
 dialog-question
@@ -63,8 +73,6 @@ window-attention
 
 
 message-new-instant
-
-message
 
 phone-incoming-call
 phone-outgoing-busy
