@@ -22,9 +22,7 @@ sound_DATA =                            \
 	desktop-logout.oga		\
 	device-added.oga		\
 	device-removed.oga		\
-	dialog-error.oga		\
 	dialog-information.oga		\
-	dialog-question.oga		\
 	dialog-warning.oga		\
 	message.oga			\
 	message-new-instant.oga		\
@@ -35,7 +33,6 @@ sound_DATA =                            \
 	service-logout.oga		\
 	suspend-error.oga		\
 	trash-empty.oga			\
-	window-attention.oga		\
 	$(NULL)
 
 install-data-hook:
@@ -49,6 +46,12 @@ install-data-hook:
 	$(LN_S) device-removed.oga $(DESTDIR)$(sounddir)/network-connectivity-lost.oga
 	-rm -f $(DESTDIR)$(sounddir)/screen-capture.oga
 	$(LN_S) camera-shutter.oga $(DESTDIR)$(sounddir)/screen-capture.oga
+	-rm -f $(DESTDIR)$(sounddir)/dialog-error.oga
+	$(LN_S) dialog-warning.oga $(DESTDIR)$(sounddir)/dialog-error.oga
+	-rm -f $(DESTDIR)$(sounddir)/window-attention.oga
+	$(LN_S) dialog-warning.oga $(DESTDIR)$(sounddir)/window-attention.oga
+	-rm -f $(DESTDIR)$(sounddir)/window-question.oga
+	$(LN_S) dialog-warning.oga $(DESTDIR)$(sounddir)/window-question.oga
 
 EXTRA_DIST =            \
 	$(sound_DATA)	\

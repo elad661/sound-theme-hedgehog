@@ -61,11 +61,8 @@ power-unplug
 network-connectivity-established
 network-connectivity-lost
 message
-dialog-error
 dialog-information
-dialog-question
 dialog-warning
-window-attention
         Copyright: Ivica Bukvic
         URL: http://gnome-look.org/content/show.php/%22Borealis%22+sound+theme?content=12584
         License: CC-BY-SA
