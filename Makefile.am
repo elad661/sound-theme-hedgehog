@@ -15,6 +15,7 @@ THEME_IN_FILES = index.theme.in
 
 EXTRA_DIST = \
 	README			\
+	CREDITS			\
 	index.theme.in		\
 	$(NULL)
 
