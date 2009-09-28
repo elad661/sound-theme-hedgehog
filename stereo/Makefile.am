@@ -14,12 +14,9 @@ sound_DATA =                            \
 	audio-channel-side-right.oga	\
 	audio-test-signal.oga		\
 	audio-volume-change.oga		\
-	battery-full.oga		\
 	bell.oga			\
 	camera-shutter.oga		\
 	complete.oga			\
-	desktop-login.oga		\
-	desktop-logout.oga		\
 	device-added.oga		\
 	device-removed.oga		\
 	dialog-information.oga		\
