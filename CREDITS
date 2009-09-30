@@ -72,4 +72,6 @@ service-logout
         License: GPLv2
 
 suspend-error
-
+        Created by Richard Hughes
+        Copyright: Red Hat, Inc.
+        License: CC-BY-SA
