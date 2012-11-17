@@ -1,6 +1,6 @@
 NULL =
 
-sounddir = $(datadir)/sounds/freedesktop/stereo
+sounddir = $(datadir)/sounds/hedgehog/stereo
 
 sound_DATA =                            \
 	alarm-clock-elapsed.oga	        \
